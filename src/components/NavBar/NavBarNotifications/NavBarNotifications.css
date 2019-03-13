@@ -1,0 +1,15 @@
+.NavBarNotifications {
+
+}
+
+.NavBarNotifications > header > div > .NavBack {
+    position: absolute;
+    left: 0px;
+    color: white;
+    top: 10px;
+}
+
+.NavBarNotifications > header > div > h2 {
+    text-align: center;
+    margin: auto;
+}
