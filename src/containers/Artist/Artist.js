@@ -23,6 +23,9 @@ import img17 from '../../assets/artistImage/17.PNG';
 import img18 from '../../assets/artistImage/18.PNG';
 import img19 from '../../assets/artistImage/19.PNG';
 
+import fiveStars from '../../assets/images/fiveStars.PNG';
+import prestige from '../../assets/images/prestige.PNG';
+
 import axios from 'axios';
 import { isNullOrUndefined } from 'util';
 import {Link} from 'react-router-dom';
@@ -147,6 +150,7 @@ class Artist extends Component {
                         </Button>
                     </div>
                     <div className='info'>
+                        <img src={prestige}></img>
                         <p>{artist.genre}</p>
                         <p>8.6b followers</p>
                         <p>Checked into Houston 1d</p>

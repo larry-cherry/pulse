@@ -9,6 +9,10 @@
         /* padding: 20px; */
 }
 
+.Artist > .info > img {
+    width: 150px;
+}
+
 .Artist > .info > p:nth-child(odd){
     text-align: left;
     /* padding-left: 10x  */
