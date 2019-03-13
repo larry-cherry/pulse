@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import './Map.css';
-// import mapImage from './austinmap.PNG';
 import { ReactBingmaps } from 'react-bingmaps';
-//import { array } from '../../../../../../../../AppData/Local/Microsoft/TypeScript/3.3/node_modules/@types/prop-types';
-//import MapScript from './MapScript.html';
+import axios from 'axios';
+import xmlParser from 'react-xml-parser';
 
 class Map extends Component {
 
@@ -23,6 +22,14 @@ class Map extends Component {
                 longitude = position.coords.longitude;
             }
         }
+
+        axios.get(`http://api.7digital.com/1.2/track/search?shopId=2020&oauth_consumer_key=7d4vr6cgb392&q=drake&usageTypes=adsupportedstreaming`, {
+            responseType: 'json'})
+            .then(res => {
+            console.log(res);
+            console.log(res.data);
+            //res.data.forEach()
+        })
 
         switch(location)
         {
@@ -89,13 +96,6 @@ class Map extends Component {
                     infoboxesWithPushPins = {pushPinsData}
                     > 
                 </ReactBingmaps>
-                >>>
-                    <iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
-                        src="http://dev.virtualearth.net/embeddedMap/v1/ajax/aerial?zoomLevel=10&center=47.5_-122.5&pushpins=47.5_-122.5"/>
-                    <div >
-                        <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=30.269499999999994~-97.7439&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
-                        <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=30.269499999999994~-97.7439&amp;sty=r&amp;lvl=11&amp;rtp=~pos.30.269499999999994_-97.7439____&amp;FORM=MBEDLD">Get Directions</a>
-                    </div>
             </div>
         )
     }
