@@ -8,6 +8,10 @@
     /* margin: 0 2px; */
 }
 
+.Artist > .info > img {
+    width: 150px;
+}
+
 .Artist > .info > p:nth-child(odd){
     text-align: left;
 }
