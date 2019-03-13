@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 
 import './Map.css';
 // import mapImage from './austinmap.PNG';
@@ -7,6 +8,13 @@ import NavBar from '../../components/NavBar/NavBar';
 //import { array } from '../../../../../../../../AppData/Local/Microsoft/TypeScript/3.3/node_modules/@types/prop-types';
 //import MapScript from './MapScript.html';
 
+=======
+import './Map.css';
+// import mapImage from './austinmap.PNG';
+import { ReactBingmaps } from 'react-bingmaps';
+//import { array } from '../../../../../../../../AppData/Local/Microsoft/TypeScript/3.3/node_modules/@types/prop-types';
+//import MapScript from './MapScript.html';
+>>>>>>> 99902a8cca1e1fbb3fc83f6970359968eee44ed7
 
 class Map extends Component {
 
@@ -84,6 +92,7 @@ class Map extends Component {
             pushPinsData.push(pushPinGeneric);
         });
 
+<<<<<<< HEAD
         return (  
                 <React.Fragment>
                     <NavBar/>
@@ -102,6 +111,25 @@ class Map extends Component {
                     </div>
                 </React.Fragment>
         );
+=======
+        return (
+            <div className='Map'>
+                <ReactBingmaps 
+                    bingmapKey = "Akd0eKvg21kj-QnRjHIM0-UKsO7RltEN7-WEww19yUdU1PBq4egrJSB06lF5x3c9" 
+                    center = {this.state.location}
+                    infoboxesWithPushPins = {pushPinsData}
+                    > 
+                </ReactBingmaps>
+                >>>
+                    <iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                        src="http://dev.virtualearth.net/embeddedMap/v1/ajax/aerial?zoomLevel=10&center=47.5_-122.5&pushpins=47.5_-122.5"/>
+                    <div >
+                        <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=30.269499999999994~-97.7439&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
+                        <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=30.269499999999994~-97.7439&amp;sty=r&amp;lvl=11&amp;rtp=~pos.30.269499999999994_-97.7439____&amp;FORM=MBEDLD">Get Directions</a>
+                    </div>
+            </div>
+        )
+>>>>>>> 99902a8cca1e1fbb3fc83f6970359968eee44ed7
     }
 }
 
