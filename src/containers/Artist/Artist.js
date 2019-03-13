@@ -107,7 +107,7 @@ class Artist extends Component {
         artist.version = '';
         artist.score = '';
 
-        axios.get(`http://api.7digital.com/1.2/track/search?shopId=2020&oauth_consumer_key=7d4vr6cgb392&q=${artist.name}&usageTypes=adsupportedstreaming`)
+        axios.get(`https://api.7digital.com/1.2/track/search?shopId=2020&oauth_consumer_key=7d4vr6cgb392&q=${artist.name}&usageTypes=adsupportedstreaming`)
             .then(res => {
             //console.log(res);
             //console.log(res.data);
