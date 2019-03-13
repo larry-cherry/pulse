@@ -6,6 +6,8 @@ import Map from './containers/Map/Map';
 import NavBar from './components/NavBar/NavBar';
 import Feed from './containers/Feed/Feed';
 import Notifications from './containers/Notifications/Notifications';
+import Artist from './containers/Artist/Artist'
+
 class App extends Component {
   render() {
     return (
@@ -19,6 +21,7 @@ class App extends Component {
           <Route path='/map' exact component={Map}/>
           <Route path='/feed' component={Feed}/>
           <Route path='/notifications' component={Notifications}/>
+          <Route path='/artist/:id' component={Artist}/>
         </Switch>
       </div>
     );
