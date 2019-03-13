@@ -1,0 +1,50 @@
+{
+  "response": {
+    "_attributes": {
+      "status": "ok",
+      "version": "1.2",
+      "xsi:noNamespaceSchemaLocation": "http://api.7digital.com/1.2/static/7digitalAPI.xsd",
+      "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "searchResults": {
+      "page": {
+        "_text": "1"
+      },
+      "pageSize": {
+        "_text": "10"
+      },
+      "totalItems": {
+        "_text": "1"
+      },
+      "searchResult": {
+        "type": {
+          "_text": "artist"
+        },
+        "score": {
+          "_text": "0.13699846"
+        },
+        "artist": {
+          "_attributes": {
+            "id": "159"
+          },
+          "name": {
+            "_text": "Bob Marley & The Wailers"
+          },
+          "sortName": {
+            "_text": "Bob Marley & The Wailers"
+          },
+          "slug": {
+            "_text": "bob-marley-the-wailers-(2)"
+          },
+          "image": {
+            "_text": "http://artwork-cdn.7static.com/static/img/artistimages/00/000/001/0000000159_150.jpg"
+          },
+          "popularity": {
+            "_text": "0.31"
+          }
+        }
+      }
+    }
+  }
+}
