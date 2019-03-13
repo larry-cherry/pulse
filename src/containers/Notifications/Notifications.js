@@ -3,10 +3,10 @@ import NavBar from '../../components/NavBar/NavBar';
 import Button from '@material-ui/core/Button';
 import './Notifications.css';
 import Notification from '../../components/Notification/Notification';
-import adam from '../../assets/images/adamElara.jpg';
-import larry from '../../assets/images/larryCherry.jpg';
-import andrew from '../../assets/images/andrew.jpg'
-import mike from '../../assets/images/mike.JPG'
+import adam from '../../assets/images/adamElara-mini.jpg';
+import larry from '../../assets/images/larryCherry-mini.jpg';
+import andrew from '../../assets/images/andrew-mini.jpg'
+import mike from '../../assets/images/mike-mini.JPG'
 class Notifications extends Component {
     state = {}
 
