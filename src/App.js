@@ -7,6 +7,7 @@ import NavBar from './components/NavBar/NavBar';
 import Feed from './containers/Feed/Feed';
 import Notifications from './containers/Notifications/Notifications';
 import Artist from './containers/Artist/Artist'
+import Event from './containers/Event/Event';
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
           <Route path='/feed' component={Feed}/>
           <Route path='/notifications' component={Notifications}/>
           <Route path='/artist/:id' component={Artist}/>
+          <Route path='/event/:id' component={Event}/>
         </Switch>
       </div>
     );
