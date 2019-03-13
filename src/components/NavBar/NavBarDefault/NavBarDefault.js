@@ -16,7 +16,7 @@ const navBarDefault = (props) => (
                 <Notification />
             </IconButton>
             </Link>
-      <h2 style={{textAlign: 'center', margin: 'auto'}}>Pulse</h2>
+      <h2 style={{textAlign: 'center', margin: 'auto'}}>Indie Pulse</h2>
       <img 
         src={pulseIcon}
         style={{height: '25px',
