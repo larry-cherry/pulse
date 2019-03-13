@@ -5,25 +5,23 @@ import Navigation from './Navigation/Navigation'
 import Notification from '@material-ui/icons/Notifications'
 import IconButton from '@material-ui/core/IconButton';
 import {Link} from 'react-router-dom';
-
+import NavBarDefault from './NavBarDefault/NavBarDefault';
+import NavBarNotifications from './NavBarNotifications/NavBarNotifications';
 class NavBar extends Component {
 
     render(){
+
+        let navBar = <NavBarDefault/>;
+
+        if(this.props.location == '/notifications'){
+          navBar = <NavBarNotifications/>;
+        }
+
         console.log(this.props);
         return (
-          <div className='NavBar'>
-            <AppBar position="static">
-                <Toolbar >
-                    <Link to='/notifications'>
-                    <IconButton>
-                        <Notification />
-                    </IconButton>
-                    </Link>
-              <h2 style={{textAlign: 'center', margin: 'auto'}}>Pulse</h2>
-              <Navigation/>
-              </Toolbar>
-            </AppBar>
-          </div>
+          <React.Fragment>
+            {navBar}
+          </React.Fragment>
         );
     }
   }

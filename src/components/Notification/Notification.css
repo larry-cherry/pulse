@@ -1,0 +1,42 @@
+.Notification {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 400px) {
+    .Notification {
+        width: 40%;
+    }
+}
+
+.Notification > a {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.Notification > a > button {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.Notification > a > button:hover,
+.Notification > a > button:active {
+    border-color: white;
+}
+
+.Notification > a > button > span > div {
+    min-width: 75px;
+    min-height: 75px;
+    margin-right: 10px;
+    background-size: cover;
+    border-radius: 50%;
+    background-position: top;
+}
+.Notification > a > button > span > p {
+    margin-left: 10px;
+    color: black;
+}

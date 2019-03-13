@@ -1,0 +1,14 @@
+.Notifications {
+
+}
+
+.Notifications > button {
+    background-color: white;
+    margin: 5px 5px;
+    border: 2px solid transparent;
+}
+
+.Notifications > button:hover {
+    color: white;
+    border-color: white
+}
