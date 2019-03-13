@@ -150,14 +150,31 @@ class Artist extends Component {
                         </Button>
                     </div>
                     <div className='info'>
-                        <img src={prestige}></img>
-                        <p>{artist.genre}</p>
-                        <p>8.6b followers</p>
-                        <p>Checked into Houston 1d</p>
-                        <p>Followed by Chase13 +26 others</p>
-                        <p>{this.state.artistState.title}</p>
-                        <p>{this.state.artistState.version}</p>
-                        <p>{this.state.artistState.score}</p>
+                            <div style={{display: 'block'}}>
+                                <img width='125px' src={prestige}></img>
+                            </div>
+                            <div style={{width: '43%',
+                                        display: 'line-block',
+                                        textAlign: 'left'}}>
+                                <p>8.6b followers</p>
+                                <p>Checked into Houston 1d</p>
+                            </div>
+                            <div style={{width: '43%',
+                                        display: 'line-block',
+                                        textAlign: 'right'}}>
+                                <p>{artist.genre}</p>
+                                <p>Followed by Chase13 +26 others</p>
+                                <p>{this.state.artistState.title}</p>
+
+                            </div>
+                            <div>
+
+                                <p style={{textAlign: 'left',
+                                         display: 'inline-block'}}>{this.state.artistState.version}</p>
+                                <p>{this.state.artistState.score}</p>
+                            </div>
+               
+                        
                         <h2>Upcoming Show:</h2>
 
                         <Link to='/event/10'>

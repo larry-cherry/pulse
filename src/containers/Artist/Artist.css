@@ -6,16 +6,10 @@
     margin: 20px auto;
     width: 50%;
     /* margin: 0 2px; */
-        /* padding: 20px; */
-}
-
-.Artist > .info > img {
-    width: 150px;
 }
 
 .Artist > .info > p:nth-child(odd){
     text-align: left;
-    /* padding-left: 10x  */
 }
 
 .Artist > .info > p:nth-child(even){
@@ -62,4 +56,8 @@
     background-color: white;
     padding: 10px;
     margin-bottom: 5px;
+}
+
+.Artist > .info > div {
+    display: inline-block;
 }
