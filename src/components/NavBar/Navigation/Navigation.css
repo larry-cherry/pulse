@@ -1,0 +1,9 @@
+.Navigation {
+    /* position: relative; */
+}
+
+.Navigation > svg {
+    position: absolute;
+    right: 20px;
+    top: 32%;
+}
