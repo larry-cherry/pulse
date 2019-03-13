@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import './Map.css';
+import './Map.css'; 
 import { ReactBingmaps } from 'react-bingmaps';
 import NavBar from '../../components/NavBar/NavBar';
 
 import axios from 'axios';
 import { XMLParser } from 'react-xml-parser';
-import artistImage from '../../assets/artistImage/1.PNG'
+import artistImage from '../../assets/artistImage/1.PNG';
 
 class Map extends Component {
 
@@ -60,7 +60,7 @@ class Map extends Component {
         var artistData = new Array();
 
         // Austin artists
-        artistData.push(artistGeneric(1, "AAerial", "3/16/2019", "7:30pm", "Dirty Dog Bar", "505 E 6th St., Austin, TX, 78701", "Progressive Ro", [30.26646, -97.73802] ));
+        artistData.push(artistGeneric(1, "AAerial", "3/16/2019", "7:30pm", "Dirty Dog Bar", "505 E 6th St., Austin, TX, 78701", "Progressive Rock", [30.26646, -97.73802] ));
         artistData.push(artistGeneric(2, "MAAD", "3/14/2019", "1:10am", "Palm Door on 6th", "508 E 6th St, Austin, TX 78701", "R&B, Soul", [30.26699, -97.73775] ));
         artistData.push(artistGeneric(3, "Aaron Cohen", "3/16/2019", "1:35am", "Mohawk Indoor", "912 Red River St, Austin, TX 78701E4", "Rap", [30.27005, -97.73611] ));
         artistData.push(artistGeneric(4, "EggPlantEgg", "3/13/2019", "1:00am", "Elysium", "705 Red River St, Austin, TX 78701", "Alt. Rock", [30.26767, -97.73658] ));
@@ -72,14 +72,18 @@ class Map extends Component {
 
         // Houston artists
         artistData.push(artistGeneric(10, "Adam Elara", "3/24/2019", "5:00pm", "Secret Group", "2101 Polk St, Houston, TX 77003", "Fluid", [29.74898, -95.35684] ));
+        artistData.push(artistGeneric(11, "Wildfire", "3/15/2019", "6:00pm", "Credeur's Cajun Cooking", "6915 Spencer Hwy, Pasadena, TX 77505", "Country, Pop", [29.66454, -95.13257] ));
+        artistData.push(artistGeneric(12, "Micah Edwards", "3/28/2019", "7:00pm", "Cafeza Sessions", "1720 Houston Ave, Houston, TX 77007", "Soul", [29.78445, -95.3721] ));
+        artistData.push(artistGeneric(13, "Ella Mai", "3/24/2019", "7:00pm", "House of Blues Houston", "1204 Caroline St, Houston, TX 77002", "R&B, Soul", [29.74655, -95.36933] ));
+        artistData.push(artistGeneric(14, "Lecrae", "3/21/2019", "7:00pm", "2nd Baptist Church", "19449 Katy Freeway, Houston, TX 77094", "Hip-Hop, Rap", [29.78057, -95.70988] ));
+        artistData.push(artistGeneric(11, "Puddle of Mudd", "3/23/2019", "6:00pm", "Warehouse LIVE", "812 Saint Emanuel St, Houston, TX 7700", "Alt. Rock", [29.75226, -95.35455] ));
+        artistData.push(artistGeneric(12, "Death Grips", "3/23/2019", "8:00pm", "White Oak Music Hall", "2915 N Main St, Houston, TX 77009", "Hip Hop", [29.78597, -95.367] ));
+        artistData.push(artistGeneric(13, "Camila", "3/23/2019", "7:30pm", "Smart Financial Center", "18111 Lexington Blvd, Sugar Land, TX 77478", "Latin Pop", [29.58112, -95.64336] ));
+        artistData.push(artistGeneric(14, "Excision", "3/22/2019", "7:00pm", "Revention Music Center", "520 Texas Ave, Houston, TX 77002", "Bass Music", [29.76222, -95.36687] ));
         // artistData.push(artistGeneric(11, "AA", "AA", "AA", "AA", "AA", "AA", [AA] ));
         // artistData.push(artistGeneric(12, "AA", "AA", "AA", "AA", "AA", "AA", [AA] ));
         // artistData.push(artistGeneric(13, "AA", "AA", "AA", "AA", "AA", "AA", [AA] ));
         // artistData.push(artistGeneric(14, "AA", "AA", "AA", "AA", "AA", "AA", [AA] ));
-
-
-        // artistData.push(artistGeneric = {"id" : 3, "name": "", "date": "", "doors open": "", "venue": "", "street address": "", "location": , "genre": ""});
-        // artistData.push(artistGeneric = {"id" : 4, "name": "EggPlantEgg", "date": "3/13/2019", "doors open": "1:00-1:50am", "venue": "Elysium", "street address": "705 Red River St, Austin, TX 78701", "location": [30.26767, -97.73658], "genre": "Alt. Rock"});
 
         var artistImage1 = artistImage;
 
@@ -131,6 +135,66 @@ class Map extends Component {
                             zoom = {16}
                             infoboxesWithPushPins = {pushPinsData}> 
                         </ReactBingmaps>
+                        <select>
+                            <option value="1">Upcoming Tonight</option>
+                            <option value="2">Upcoming Weekend</option>
+                            <option value="3">Upcoming This Week</option>
+                            <option value="4">Upcoming This Month</option>
+                            <option value="5">Upcoming Next Month</option>
+                            <option value="6">Upcoming This Year</option>
+                            <option value="7">Last 30 Days</option>
+                            <option value="8">Last 12 Months</option>
+                            <option value="9">All Time</option>
+                            <option value="10">Custom Date Range</option>
+                        </select>
+
+                        <select>
+                            <option value="1">Austin</option>
+                            <option value="1">Dallas</option>
+                            <option value="1">Houston</option>
+                            <option value="2">----- West Coast -----</option>
+                            <option value="3">Los Angeles</option>
+                            <option value="3">Phoenix</option>
+                            <option value="3">Seattle</option>
+                            <option value="3">Vancouver</option>
+                            <option value="4">----- East Coast -----</option>
+                            <option value="5">Charlotte</option>
+                            <option value="5">Chicago</option>
+                            <option value="5">Miami</option>
+                            <option value="5">Montreal</option>
+                            <option value="5">New Orleans</option>
+                            <option value="5">New York</option>
+                            <option value="6">----- Central America -----</option>
+                            <option value="7">Guadalajara</option>
+                            <option value="7">Havana</option>
+                            <option value="7">Jamaica</option>
+                            <option value="7">Mexico City</option>
+                        </select>
+
+                        <select>
+                            <option value="1">Alt Rock</option>
+                            <option value="1">Blues</option>
+                            <option value="1">Classical</option>
+                            <option value="1">Country</option>
+                            <option value="1">Dubstep</option>
+                            <option value="1">Electronic</option>
+                            <option value="1">Folk</option>
+                            <option value="1">Funk</option>
+                            <option value="1">Gospel</option>
+                            <option value="1">Hip Hop</option>
+                            <option value="1">House</option>
+                            <option value="1">Jazz</option>
+                            <option value="1">Progressive Rock</option>
+                            <option value="1">Punk Rock</option>
+                            <option value="1">R&B</option>
+                            <option value="1">Rap</option>
+                            <option value="1">Reggae</option>
+                            <option value="1">Rock</option>
+                            <option value="1">Ska</option>
+                            <option value="1">Soul</option>
+                            <option value="1">Techno</option>
+                            <option value="1">Vaporwave</option>
+                        </select>
                     </div>
                 </React.Fragment>
         );
