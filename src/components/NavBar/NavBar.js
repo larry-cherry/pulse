@@ -1,12 +1,7 @@
 import React, {Component} from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Navigation from './Navigation/Navigation'
-import Notification from '@material-ui/icons/Notifications'
-import IconButton from '@material-ui/core/IconButton';
-import {Link} from 'react-router-dom';
 import NavBarDefault from './NavBarDefault/NavBarDefault';
 import NavBarNotifications from './NavBarNotifications/NavBarNotifications';
+import NavBarArtist from './NavBarArtist/NavBarArtist';
 class NavBar extends Component {
 
     render(){
@@ -15,6 +10,8 @@ class NavBar extends Component {
 
         if(this.props.location == '/notifications'){
           navBar = <NavBarNotifications/>;
+        } else if(this.props.location == '/artist/:id'){
+          navBar = <NavBarArtist/>;
         }
 
         console.log(this.props);
