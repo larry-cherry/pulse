@@ -1,0 +1,497 @@
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="ok" version="1.2" xsi:noNamespaceSchemaLocation="http://api.7digital.com/1.2/static/7digitalAPI.xsd">
+<tracks>
+<page>1</page>
+<pageSize>10</pageSize>
+<totalItems>10</totalItems>
+<track id="57470992">
+<title>The Night Hank Williams Came To Town</title>
+<version/>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<trackNumber>1</trackNumber>
+<duration>201</duration>
+<explicitContent>false</explicitContent>
+<isrc>USPR39401969</isrc>
+<pline/>
+<type>audio</type>
+<release id="5726299">
+<title>Wanted Man</title>
+<version/>
+<type>Album</type>
+<barcode>00731452270924</barcode>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<slug>wanted-man-5726299</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/sleeveart/00/057/262/0005726299_50.jpg
+</image>
+<label id="629">
+<name>Island Def Jam</name>
+</label>
+<licensor id="493">
+<name>UMG Global</name>
+</licensor>
+</release>
+<discNumber>1</discNumber>
+<number>1</number>
+<adSupportedStreaming>
+<releaseDate>2006-09-26T04:00:00Z</releaseDate>
+</adSupportedStreaming>
+</track>
+<track id="57470993">
+<title>Let Him Roll</title>
+<version/>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<trackNumber>2</trackNumber>
+<duration>266</duration>
+<explicitContent>false</explicitContent>
+<isrc>USPR39401970</isrc>
+<pline/>
+<type>audio</type>
+<release id="5726299">
+<title>Wanted Man</title>
+<version/>
+<type>Album</type>
+<barcode>00731452270924</barcode>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<slug>wanted-man-5726299</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/sleeveart/00/057/262/0005726299_50.jpg
+</image>
+<label id="629">
+<name>Island Def Jam</name>
+</label>
+<licensor id="493">
+<name>UMG Global</name>
+</licensor>
+</release>
+<discNumber>1</discNumber>
+<number>2</number>
+<adSupportedStreaming>
+<releaseDate>2006-09-26T04:00:00Z</releaseDate>
+</adSupportedStreaming>
+</track>
+<track id="57470994">
+<title>My Ship Will Sail</title>
+<version>Album Version</version>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<trackNumber>3</trackNumber>
+<duration>163</duration>
+<explicitContent>false</explicitContent>
+<isrc>USIR20201018</isrc>
+<pline/>
+<type>audio</type>
+<release id="5726299">
+<title>Wanted Man</title>
+<version/>
+<type>Album</type>
+<barcode>00731452270924</barcode>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<slug>wanted-man-5726299</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/sleeveart/00/057/262/0005726299_50.jpg
+</image>
+<label id="629">
+<name>Island Def Jam</name>
+</label>
+<licensor id="493">
+<name>UMG Global</name>
+</licensor>
+</release>
+<discNumber>1</discNumber>
+<number>3</number>
+<adSupportedStreaming>
+<releaseDate>2006-09-26T04:00:00Z</releaseDate>
+</adSupportedStreaming>
+</track>
+<track id="57470995">
+<title>That Old Wheel</title>
+<version/>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<trackNumber>4</trackNumber>
+<duration>169</duration>
+<explicitContent>false</explicitContent>
+<isrc>USPR38860030</isrc>
+<pline/>
+<type>audio</type>
+<release id="5726299">
+<title>Wanted Man</title>
+<version/>
+<type>Album</type>
+<barcode>00731452270924</barcode>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<slug>wanted-man-5726299</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/sleeveart/00/057/262/0005726299_50.jpg
+</image>
+<label id="629">
+<name>Island Def Jam</name>
+</label>
+<licensor id="493">
+<name>UMG Global</name>
+</licensor>
+</release>
+<discNumber>1</discNumber>
+<number>4</number>
+<adSupportedStreaming>
+<releaseDate>2006-09-26T04:00:00Z</releaseDate>
+</adSupportedStreaming>
+</track>
+<track id="57470996">
+<title>Ballad Of A Teenage Queen</title>
+<version/>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<trackNumber>5</trackNumber>
+<duration>165</duration>
+<explicitContent>false</explicitContent>
+<isrc>USPR39401972</isrc>
+<pline/>
+<type>audio</type>
+<release id="5726299">
+<title>Wanted Man</title>
+<version/>
+<type>Album</type>
+<barcode>00731452270924</barcode>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<slug>wanted-man-5726299</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/sleeveart/00/057/262/0005726299_50.jpg
+</image>
+<label id="629">
+<name>Island Def Jam</name>
+</label>
+<licensor id="493">
+<name>UMG Global</name>
+</licensor>
+</release>
+<discNumber>1</discNumber>
+<number>5</number>
+<adSupportedStreaming>
+<releaseDate>2006-09-26T04:00:00Z</releaseDate>
+</adSupportedStreaming>
+</track>
+<track id="57470997">
+<title>Beans For Breakfast</title>
+<version/>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<trackNumber>6</trackNumber>
+<duration>197</duration>
+<explicitContent>false</explicitContent>
+<isrc>USPR39401975</isrc>
+<pline/>
+<type>audio</type>
+<release id="5726299">
+<title>Wanted Man</title>
+<version/>
+<type>Album</type>
+<barcode>00731452270924</barcode>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<slug>wanted-man-5726299</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/sleeveart/00/057/262/0005726299_50.jpg
+</image>
+<label id="629">
+<name>Island Def Jam</name>
+</label>
+<licensor id="493">
+<name>UMG Global</name>
+</licensor>
+</release>
+<discNumber>1</discNumber>
+<number>6</number>
+<adSupportedStreaming>
+<releaseDate>2006-09-26T04:00:00Z</releaseDate>
+</adSupportedStreaming>
+</track>
+<track id="57470998">
+<title>Wanted Man</title>
+<version/>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<trackNumber>7</trackNumber>
+<duration>171</duration>
+<explicitContent>false</explicitContent>
+<isrc>USPR39401976</isrc>
+<pline/>
+<type>audio</type>
+<release id="5726299">
+<title>Wanted Man</title>
+<version/>
+<type>Album</type>
+<barcode>00731452270924</barcode>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<slug>wanted-man-5726299</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/sleeveart/00/057/262/0005726299_50.jpg
+</image>
+<label id="629">
+<name>Island Def Jam</name>
+</label>
+<licensor id="493">
+<name>UMG Global</name>
+</licensor>
+</release>
+<discNumber>1</discNumber>
+<number>7</number>
+<adSupportedStreaming>
+<releaseDate>2006-09-26T04:00:00Z</releaseDate>
+</adSupportedStreaming>
+</track>
+<track id="57470999">
+<title>The Greatest Cowboy Of Them All</title>
+<version>Album Version</version>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<trackNumber>8</trackNumber>
+<duration>210</duration>
+<explicitContent>false</explicitContent>
+<isrc>USPR39030170</isrc>
+<pline/>
+<type>audio</type>
+<release id="5726299">
+<title>Wanted Man</title>
+<version/>
+<type>Album</type>
+<barcode>00731452270924</barcode>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<slug>wanted-man-5726299</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/sleeveart/00/057/262/0005726299_50.jpg
+</image>
+<label id="629">
+<name>Island Def Jam</name>
+</label>
+<licensor id="493">
+<name>UMG Global</name>
+</licensor>
+</release>
+<discNumber>1</discNumber>
+<number>8</number>
+<adSupportedStreaming>
+<releaseDate>2006-09-26T04:00:00Z</releaseDate>
+</adSupportedStreaming>
+</track>
+<track id="57471000">
+<title>Goin' By The Book</title>
+<version/>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<trackNumber>9</trackNumber>
+<duration>199</duration>
+<explicitContent>false</explicitContent>
+<isrc>USPR39401977</isrc>
+<pline/>
+<type>audio</type>
+<release id="5726299">
+<title>Wanted Man</title>
+<version/>
+<type>Album</type>
+<barcode>00731452270924</barcode>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<slug>wanted-man-5726299</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/sleeveart/00/057/262/0005726299_50.jpg
+</image>
+<label id="629">
+<name>Island Def Jam</name>
+</label>
+<licensor id="493">
+<name>UMG Global</name>
+</licensor>
+</release>
+<discNumber>1</discNumber>
+<number>9</number>
+<adSupportedStreaming>
+<releaseDate>2006-09-26T04:00:00Z</releaseDate>
+</adSupportedStreaming>
+</track>
+<track id="57471001">
+<title>I'll Go Somewhere And Sing My Songs Again</title>
+<version/>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<trackNumber>10</trackNumber>
+<duration>190</duration>
+<explicitContent>false</explicitContent>
+<isrc>USPR39401978</isrc>
+<pline/>
+<type>audio</type>
+<release id="5726299">
+<title>Wanted Man</title>
+<version/>
+<type>Album</type>
+<barcode>00731452270924</barcode>
+<artist id="1448">
+<name>Johnny Cash</name>
+<appearsAs>Johnny Cash</appearsAs>
+<slug>johnny-cash</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/artistimages/00/000/014/0000001448_150.jpg
+</image>
+<isPlaceholderImage>true</isPlaceholderImage>
+</artist>
+<slug>wanted-man-5726299</slug>
+<image>
+http://artwork-cdn.7static.com/static/img/sleeveart/00/057/262/0005726299_50.jpg
+</image>
+<label id="629">
+<name>Island Def Jam</name>
+</label>
+<licensor id="493">
+<name>UMG Global</name>
+</licensor>
+</release>
+<discNumber>1</discNumber>
+<number>10</number>
+<adSupportedStreaming>
+<releaseDate>2006-09-26T04:00:00Z</releaseDate>
+</adSupportedStreaming>
+</track>
+</tracks>
+</response>
