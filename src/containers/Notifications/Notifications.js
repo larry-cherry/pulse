@@ -5,8 +5,8 @@ import './Notifications.css';
 import Notification from '../../components/Notification/Notification';
 import adam from '../../assets/images/adamElara-mini.jpg';
 import larry from '../../assets/images/larryCherry-mini.jpg';
-import andrew from '../../assets/images/andrew-mini.jpg'
-import mike from '../../assets/images/mike-mini.JPG'
+import andrew from '../../assets/images/andrew-mini2.jpeg'
+import mike from '../../assets/images/mike-mini2.jpeg'
 class Notifications extends Component {
     state = {}
 

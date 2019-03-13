@@ -29,15 +29,15 @@ class Map extends Component {
         axios.get(`http://api.7digital.com/1.2/track/search?shopId=2020&oauth_consumer_key=7d4vr6cgb392&q=john&usageTypes=adsupportedstreaming`)
             .then(res => {
             //console.log(res);
-            console.log(res.data);
+            // console.log(res.data);
 
             var XMLParser = require('react-xml-parser');
 
             var jsonObject = new XMLParser().parseFromString(res.data);    // Assume xmlText contains the example XML
-            console.log(jsonObject.children[0].children[3].children[2].children[0].value); // title
-            console.log(jsonObject.children[0].children[3].children[2].children[1].value); // version
-            console.log(jsonObject.children[0].children[3].children[2].children[2].children[3].value); // image
-            console.log(jsonObject.children[0].children[3].children[1].value); // score
+            // console.log(jsonObject.children[0].children[3].children[2].children[0].value); // title
+            // console.log(jsonObject.children[0].children[3].children[2].children[1].value); // version
+            // console.log(jsonObject.children[0].children[3].children[2].children[2].children[3].value); // image
+            // console.log(jsonObject.children[0].children[3].children[1].value); // score
         })
 
         switch(location)
@@ -120,10 +120,10 @@ class Map extends Component {
             
         // });
 
-        pushPinsData.forEach(function (element) {
-            console.log (element.location);
+        // pushPinsData.forEach(function (element) {
+        //     // console.log (element.location);
 
-        })
+        // })
 
         return (  
                 <React.Fragment>
