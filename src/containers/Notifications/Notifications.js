@@ -1,21 +1,18 @@
 import React, {Component} from 'react';
 import NavBar from '../../components/NavBar/NavBar';
 
-class Feed extends Component {
-    
-    state = {
+class Notifications extends Component {
+    state = {}
 
-    }
-    
-    render() {
-
+    render(){
+        console.log(this.props.location.pathname)
         return (
             <React.Fragment>
                 <NavBar/>
-                <h1>Feed</h1>
+                <h1>Notifications</h1>
             </React.Fragment>
         );
     }
 }
 
-export default Feed;
+export default Notifications;
