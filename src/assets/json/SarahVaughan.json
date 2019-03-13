@@ -1,0 +1,136 @@
+{
+  "response": {
+    "_attributes": {
+      "status": "ok",
+      "version": "1.2",
+      "xsi:noNamespaceSchemaLocation": "http://api.7digital.com/1.2/static/7digitalAPI.xsd",
+      "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "searchResults": {
+      "page": {
+        "_text": "1"
+      },
+      "pageSize": {
+        "_text": "10"
+      },
+      "totalItems": {
+        "_text": "4"
+      },
+      "searchResult": [
+        {
+          "type": {
+            "_text": "artist"
+          },
+          "score": {
+            "_text": "0.22526906"
+          },
+          "artist": {
+            "_attributes": {
+              "id": "2754"
+            },
+            "name": {
+              "_text": "Sarah Vaughan"
+            },
+            "sortName": {
+              "_text": "Sarah Vaughan"
+            },
+            "slug": {
+              "_text": "sarah-vaughan"
+            },
+            "image": {
+              "_text": "http://artwork-cdn.7static.com/static/img/artistimages/00/000/027/0000002754_150.jpg"
+            },
+            "popularity": {
+              "_text": "0.38"
+            }
+          }
+        },
+        {
+          "type": {
+            "_text": "artist"
+          },
+          "score": {
+            "_text": "0.04009305"
+          },
+          "artist": {
+            "_attributes": {
+              "id": "72328"
+            },
+            "name": {
+              "_text": "Sarah Vaughan / Clifford Brown"
+            },
+            "sortName": {
+              "_text": "Sarah Vaughan / Clifford Brown"
+            },
+            "slug": {
+              "_text": "sarah-vaughan-clifford-brown-(2)"
+            },
+            "image": {
+              "_text": "http://artwork-cdn.7static.com/static/img/artistimages/00/000/723/0000072328_150.jpg"
+            },
+            "popularity": {
+              "_text": "0.16"
+            }
+          }
+        },
+        {
+          "type": {
+            "_text": "artist"
+          },
+          "score": {
+            "_text": "0.030328352"
+          },
+          "artist": {
+            "_attributes": {
+              "id": "4402305"
+            },
+            "name": {
+              "_text": "Helen Merrill / Sarah Vaughan / Clifford Brown / Dinah Washington"
+            },
+            "sortName": {
+              "_text": "Helen Merrill / Sarah Vaughan / Clifford Brown / Dinah Washington"
+            },
+            "slug": {
+              "_text": "helen-merrill-sarah-vaughan-clifford-brown-dinah-washington"
+            },
+            "image": {
+              "_text": "http://artwork-cdn.7static.com/static/img/artistimages/00/044/023/0004402305_150.jpg"
+            },
+            "popularity": {
+              "_text": "0.13"
+            }
+          }
+        },
+        {
+          "type": {
+            "_text": "artist"
+          },
+          "score": {
+            "_text": "0.027552163"
+          },
+          "artist": {
+            "_attributes": {
+              "id": "1414799"
+            },
+            "name": {
+              "_text": "CLIFFORD BROWN / Dinah Washington / Sarah Vaughan / Helen Merrill"
+            },
+            "sortName": {
+              "_text": "CLIFFORD BROWN / Dinah Washington / Sarah Vaughan / Helen Merrill"
+            },
+            "slug": {
+              "_text": "clifford-brown-dinah-washington-sarah-vaughan-helen-merrill"
+            },
+            "image": {
+              "_text": "http://artwork-cdn.7static.com/static/img/artistimages/00/014/147/0001414799_150.jpg"
+            },
+            "popularity": {
+              "_text": "0.12"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
