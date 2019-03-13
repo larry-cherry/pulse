@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+
 import './Map.css';
 import { ReactBingmaps } from 'react-bingmaps';
+import NavBar from '../../components/NavBar/NavBar';
+
 import axios from 'axios';
 import xmlParser from 'react-xml-parser';
 
@@ -88,16 +91,18 @@ class Map extends Component {
             pushPinsData.push(pushPinGeneric);
         });
 
-        return (
-            <div className='Map'>
-                <ReactBingmaps 
-                    bingmapKey = "Akd0eKvg21kj-QnRjHIM0-UKsO7RltEN7-WEww19yUdU1PBq4egrJSB06lF5x3c9" 
-                    center = {this.state.location}
-                    infoboxesWithPushPins = {pushPinsData}
-                    > 
-                </ReactBingmaps>
-            </div>
-        )
+        return (  
+                <React.Fragment>
+                    <NavBar/>
+                    <div className='Map'>
+                        <ReactBingmaps 
+                            bingmapKey = "Akd0eKvg21kj-QnRjHIM0-UKsO7RltEN7-WEww19yUdU1PBq4egrJSB06lF5x3c9" 
+                            center = {this.state.location}
+                            infoboxesWithPushPins = {pushPinsData}> 
+                        </ReactBingmaps>
+                    </div>
+                </React.Fragment>
+        );
     }
 }
 
