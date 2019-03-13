@@ -1,0 +1,15 @@
+.NavBarArtist {
+
+}
+
+.NavBarArtist > header > div > .NavBack {
+    position: absolute;
+    left: 0px;
+    color: white;
+    top: 10px;
+}
+
+.NavBarArtist > header > div > svg {
+    position: absolute;
+    right: 25px;
+}

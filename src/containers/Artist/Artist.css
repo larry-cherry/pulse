@@ -1,0 +1,54 @@
+.Artist {
+}
+
+.Artist > .info > p{
+    display: inline-block;
+    margin: 20px auto;
+    width: 50%;
+    /* margin: 0 2px; */
+}
+
+.Artist > .info > p:nth-child(odd){
+    text-align: left;
+}
+
+.Artist > .info > p:nth-child(even){
+    text-align: right;
+}
+
+.Artist > .artistImage{
+    width: 100%;
+    height: calc(100vh - 400px);
+    background-size: cover;
+    position: relative;
+}
+.Artist > .artistImage > h1{
+    bottom: 45px;
+    left: calc(30% - 18px);
+    position: absolute;
+}
+
+.Artist > .artistImage > button{
+    bottom: 5px;
+    left: 35%;
+    position: absolute;
+}
+
+@media (min-width: 500px){
+    .Artist > .artistImage > h1{
+        left: calc(41%);
+    }
+    .Artist > .artistImage > button{
+        bottom: 5px;
+        left:  46%;
+        position: absolute;
+    }
+}
+
+
+.Artist > .info {
+    height: 400px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
