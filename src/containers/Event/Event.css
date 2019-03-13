@@ -1,0 +1,6 @@
+@media (min-width: 825px) {
+    .EventInfo > p {
+        max-width: 50%;
+        margin: auto;
+    }
+}

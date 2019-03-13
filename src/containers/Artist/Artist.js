@@ -25,6 +25,7 @@ import img19 from '../../assets/artistImage/19.PNG';
 
 import axios from 'axios';
 import { isNullOrUndefined } from 'util';
+import {Link} from 'react-router-dom';
 
 class Artist extends Component {
 
@@ -155,10 +156,11 @@ class Artist extends Component {
                         <p>{this.state.artistState.score}</p>
                         <h2>Upcoming Show:</h2>
 
-
-                        <Button variant='contained'>
-                            <p>{artist.date} {artist.doorsOpen} {artist.venue} Battle of the Bands!<br/>{artist.streetAddress} </p>
-                        </Button>
+                        <Link to='/event/10'>
+                            <Button variant='contained'>
+                                <p>{artist.date} {artist.doorsOpen} {artist.venue} Battle of the Bands!<br/>{artist.streetAddress} </p>
+                            </Button>
+                        </Link>
                     </div>
                 </div>
             )

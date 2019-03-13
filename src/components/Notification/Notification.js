@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 const notification = (props) => (
     
     <div className='Notification'>
-    <Link to={`/artist/${props.artistID}`}>
+    <Link to={`/artist/${props.artistId}`}>
     <Button>
         <div style={{backgroundImage: `url(${props.src})`}}></div>
         <p>{props.title}</p>

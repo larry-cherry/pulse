@@ -30,7 +30,7 @@ class Notifications extends Component {
                         src={adam} 
                         title='ADAM ELARA: SECRET GROUP'
                         time='6hr'
-                        artistId='1'/>
+                        artistId='10'/>
                     <Notification 
                         src={larry} 
                         title='Larrydonsaurus saw KE$SHA'
