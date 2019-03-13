@@ -68,7 +68,7 @@ class Artist extends Component {
         artistData.push(artistGeneric(16, "Death Grips", "3/23/2019", "8:00pm", "White Oak Music Hall", "2915 N Main St, Houston, TX 77009", "Hip Hop", [29.78597, -95.367] ));
         artistData.push(artistGeneric(17, "Camila", "3/23/2019", "7:30pm", "Smart Financial Center", "18111 Lexington Blvd, Sugar Land, TX 77478", "Latin Pop", [29.58112, -95.64336] ));
         artistData.push(artistGeneric(18, "Excision", "3/22/2019", "7:00pm", "Revention Music Center", "520 Texas Ave, Houston, TX 77002", "Bass Music", [29.76222, -95.36687] ));
-        artistData.push(artistGeneric(19, "Eminem", "3/22/2019", "5:00pm", "Cynthia Woods Mitchell Pavilion", "2005 Lake Robbins Dr, The Woodlands, TX 77380", "Rap", [30.161593,-95.4662177] ));
+        artistData.push(artistGeneric(19, "Tony Dize", "3/22/2019", "5:00pm", "Cynthia Woods Mitchell Pavilion", "2005 Lake Robbins Dr, The Woodlands, TX 77380", "Reggae", [30.161593,-95.4662177] ));
 
         var artist; 
         artistData.forEach(function(element) {
