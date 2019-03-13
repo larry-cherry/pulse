@@ -1,16 +1,49 @@
 import React, { Component } from 'react';
 import './Map.css';
-import mapImage from './austinmap.PNG';
+// import mapImage from './austinmap.PNG';
 import { ReactBingmaps } from 'react-bingmaps';
 //import { array } from '../../../../../../../../AppData/Local/Microsoft/TypeScript/3.3/node_modules/@types/prop-types';
 //import MapScript from './MapScript.html';
 
 class Map extends Component {
 
+    state = {
+        location: [30.267170, -97.736500]
+    }
+
+    updateMapCity(location) {
+        var latitude = 30.267170 // default austin
+        var longitude = -97.736500 // default austin
+
+        if (location = "CurentLocation"){
+            if (navigator.geolocation) { navigator.geolocation.getCurrentPosition(showPosition); }
+            
+            function showPosition(position) {
+                latitude = "Latitude: " + position.coords.latitude;
+                longitude = position.coords.longitude;
+            }
+        }
+
+        switch(location)
+        {
+            case "CurrentLocation": this.setState({location: [latitude, longitude]}); break;
+            case "Austin": this.setState({location: [30.267170, -97.736500]}); break;
+            case "Houston": this.setState({location: [29.7604, 95.3698]}); break;
+        }
+    }
+
     render(){
+        var windowObjectReference;
+        this.callBackMethod = function() {
+            windowObjectReference = window.open("www.google.com", 'google', "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes");
+        }
+
+        this.updateMapCity("Houston");
+
         var pushPinGeneric = {
-            "location":[30.267170, -97.736500] // default/generic location
-            , "option":{ color: '#1A237E' } // default color // TODO // modify this, show color by genre.
+            "location":[0, 0] // default/generic location
+            , "url": "http://www.cnn.com/"
+            , "windowName": "CNN_WindowName"
             , "addHandler": {"type" : "click", callback: this.callBackMethod }
             , "addHandler":"mouseover" //on mouseover the pushpin, infobox shown
             , "infoboxOption": { title: '###InsertArtistName', description: '###InsertArtistDetails' } // Title: Artist name, Description:  // Todo // swap artist name and venue name?
@@ -48,41 +81,12 @@ class Map extends Component {
             pushPinsData.push(pushPinGeneric);
         });
 
-        
-
-        
-
         return (
             <div className='Map'>
                 <ReactBingmaps 
                     bingmapKey = "Akd0eKvg21kj-QnRjHIM0-UKsO7RltEN7-WEww19yUdU1PBq4egrJSB06lF5x3c9" 
-                    center = {[30.267170, -97.736500]}
+                    center = {this.state.location}
                     infoboxesWithPushPins = {pushPinsData}
-                    // infoboxesWithPushPins = {
-                    //     [
-                    //       {
-                    //         "location":[30.267170, -97.736500]
-                    //         , "option":{ color: '#1A237E' }
-                    //         , "addHandler": {"type" : "click", callback: this.callBackMethod }
-                    //         , "addHandler":"mouseover" //on mouseover the pushpin, infobox shown
-                    //         , "infoboxOption": { title: 'Artist: ', description: 'Infobox' }
-                    //         , "pushPinOption":{ title: 'Dirty Dog Bar', description: '', color: '#1A237E' }
-                    //         , "infoboxAddHandler": {"type" : "click", callback: this.callBackMethod }
-                    //         , "pushPinAddHandler": {"type" : "click", callback: this.callBackMethod }
-                            
-                    //       },
-                    //       {
-                    //         "location":[30.357170, -97.536500]
-                    //         , "option":{ color: '#1A237E' }
-                    //         , "addHandler": {"type" : "click", callback: this.callBackMethod }
-                    //         , "addHandler":"mouseover" //on mouseover the pushpin, infobox shown
-                    //         , "infoboxOption": { title: 'Infobox Title', description: 'Infobox' }
-                    //         , "pushPinOption":{ title: 'Palm Door on 6th', description: 'Pushpin', color: '#1A237E' }
-                    //         , "infoboxAddHandler": {"type" : "click", callback: this.callBackMethod }
-                    //         , "pushPinAddHandler": {"type" : "click", callback: this.callBackMethod }
-                    //       }
-                    //     ]
-                    //   }
                     > 
                 </ReactBingmaps>
                 >>>
@@ -93,8 +97,6 @@ class Map extends Component {
                         <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=30.269499999999994~-97.7439&amp;sty=r&amp;lvl=11&amp;rtp=~pos.30.269499999999994_-97.7439____&amp;FORM=MBEDLD">Get Directions</a>
                     </div>
             </div>
-
-            
         )
     }
 }
