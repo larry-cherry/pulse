@@ -132,8 +132,8 @@ class Map extends Component {
                 "location": Location
                 , "addHandler": {"type" : "click"}
                 , "addHandler":"mouseover"
-                , "infoboxOption": { title: Name, description: `<img src=${artistPicture} style="width: 41px"/><br/>` + Date + " " + DoorsOpen + "<br/>" + Address, height: "256" } // Title: Artist name, Description:  // Todo // swap artist name and venue name?
-                , "pushPinOption":{ title: Venue, description: null, color: '#1A237E' } // Title: Venue name. Description: remains blank.
+                , "infoboxOption": { title: Name, description: `<img src=${artistPicture} style="width: 41px"/><br/>` + Date + " " + DoorsOpen + "<br/>" + Venue, height: "256" } // Title: Artist name, Description:  // Todo // swap artist name and venue name?
+                , "pushPinOption":{ title: Name, description: null, color: '#1A237E' } // Title: Venue name. Description: remains blank.
                 , "infoboxAddHandler": {"type" : "click", callback: function() { window.open('artist/' + Id, '', "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes");} }
                 , "pushPinAddHandler": {"type" : "click", callback: function() { window.open('artist/' + Id, '', "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes");} }
             };
