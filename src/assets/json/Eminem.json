@@ -1,0 +1,50 @@
+{
+  "response": {
+    "_attributes": {
+      "status": "ok",
+      "version": "1.2",
+      "xsi:noNamespaceSchemaLocation": "http://api.7digital.com/1.2/static/7digitalAPI.xsd",
+      "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "searchResults": {
+      "page": {
+        "_text": "1"
+      },
+      "pageSize": {
+        "_text": "10"
+      },
+      "totalItems": {
+        "_text": "1"
+      },
+      "searchResult": {
+        "type": {
+          "_text": "artist"
+        },
+        "score": {
+          "_text": "0.34249616"
+        },
+        "artist": {
+          "_attributes": {
+            "id": "262"
+          },
+          "name": {
+            "_text": "Eminem"
+          },
+          "sortName": {
+            "_text": "Eminem"
+          },
+          "slug": {
+            "_text": "eminem"
+          },
+          "image": {
+            "_text": "http://artwork-cdn.7static.com/static/img/artistimages/00/000/002/0000000262_150.jpg"
+          },
+          "popularity": {
+            "_text": "0.31"
+          }
+        }
+      }
+    }
+  }
+}
